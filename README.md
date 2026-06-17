@@ -50,7 +50,7 @@ npm install
 ## Start JSON Server
 
 ```bash
-json-server --watch db.json --port 3000
+npx json-server --watch data/dummy.json --port 3000 --static ./data
 ```
 
 ## Run Application
