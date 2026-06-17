@@ -1,0 +1,419 @@
+.home {
+  width: auto;
+  display: grid;
+  grid-template-columns: 25% 50% 25%;
+  min-height: 560px;
+}
+
+.sidebar {
+  width: 300px;
+  height: 580px;
+  position: fixed;
+  /* background: #f4f4f4; */
+}
+
+.sidebar img {
+  width: 200px;
+  height: 100px;
+  object-fit: contain;
+}
+
+.navbars,
+.more {
+  list-style: none;
+  margin-top: -10px;
+  font-size: 22px;
+}
+
+.navbars li,
+.more li {
+  padding: 10px;
+}
+
+.navbars li:hover,
+.more li:hover {
+  background: #f2f2f2;
+  border-radius: 30px;
+  cursor: pointer;
+
+}
+
+.sideprofile {
+  width: auto;
+  margin-left: -25px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+.move {
+  padding: 10px;
+}
+
+.sideprofile img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.feed {
+  width: auto;
+  min-height: 580px;
+}
+
+.postlist {
+  width: auto;
+  justify-items: center;
+  padding-bottom: 50px;
+}
+
+.post {
+  border-radius: 30px;
+  width: 300px;
+  margin: 30px;
+  min-height: 450px;
+  border: 1px solid lightgrey;
+  padding: 30px;
+}
+
+.postprofile {
+  width: 300px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.postprofile button {
+  border: none;
+  font-size: 12px;
+  width: 50px;
+  margin-top: 10px;
+  height: 40px;
+  color: white;
+  background: skyblue;
+  border-radius: 30px;
+}
+
+.postprofileimg {
+  width: 180px;
+  height: 60px;
+  gap: 20px;
+  align-items: center;
+  display: flex;
+}
+
+.postprofileimg img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.postimg {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+.postlikes {
+  margin-top: 20px;
+  width: 300px;
+  height: 20px;
+  display: flex;
+  list-style-type: none;
+  gap: 10px;
+}
+
+.postlikes li {
+  font-size: 20px;
+}
+
+.comments input {
+  border: none;
+  outline: none;
+  width: 300px;
+  border-bottom: 1px solid black;
+}
+
+.comments button {
+  border: none;
+  background: lightskyblue;
+  color: white;
+  padding: 7px;
+  outline: none;
+  border-radius: 20px;
+}
+
+.suggestprofile {
+  width: auto;
+  height: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.suggestprofile img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.suggestprofile h3 {
+  font-size: 23px;
+}
+
+.suggestprofile h4 {
+  font-size: 15px;
+  margin-top: -20px;
+  color: grey;
+}
+
+.suggestprofile button {
+  border: none;
+  background: transparent;
+  color: skyblue;
+  font-size: 15px;
+}
+
+.suggest {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.suggestpeople {
+  width: auto;
+  min-height: 300px;
+
+}
+
+.suggestion1 {
+  width: auto;
+  padding: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.suggestion1 img {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.suggestion1 button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  color: lightskyblue;
+}
+
+.about {
+  color: grey;
+  font-size: 15px;
+}
+
+.storylist {
+  width: auto;
+  height: 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.story {
+  width: 60px;
+  height: 60px;
+  justify-items: center;
+}
+
+.story1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  padding: 3px;
+  background: linear-gradient(45deg, magenta, blueviolet, pink);
+}
+
+.story img {
+  width: 60px;
+  height: 60px;
+  border-radius: 100%;
+  object-fit: 100% 100%;
+}
+
+.story p {
+  font-size: 12px;
+}
+
+.viewstory {
+  width: auto;
+  height: 600px;
+  background-attachment: fixed;
+  color: white;
+  background-size: cover;
+}
+
+.storydetails {
+  width: auto;
+  min-height: 800p;
+  backdrop-filter: blur(20px);
+
+}
+
+.stuser {
+  display: flex;
+  gap: 40px;
+  backdrop-filter: blur(10px);
+  width: auto;
+  height: 70px;
+  padding: 30px;
+
+}
+
+.stuser img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+
+.storyimg {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: auto;
+  min-height: 110vh;
+}
+
+.storyimg img {
+  object-fit: cover;
+  width: 40vw;
+  height: 100vh;
+  border: 3px solid lightgrey;
+}
+
+.storyimg button {
+  height: 50px;
+  width: 50px;
+  border: none;
+  background: lightskyblue;
+  border-radius: 100%;
+  color: white;
+  font-size: 30px;
+}
+
+.profilepg {
+  width: auto;
+  min-height: 250px;
+  padding-bottom: 40px;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.profilepg img{
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 100%;
+}
+.profilecont{
+  margin-top: -20px;
+  margin-left: -30px;
+  padding: 10px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.profilecont p{
+  cursor: pointer;
+}
+.profilecont mark{
+  color: grey;
+  background: transparent;
+}
+.secprofile{
+  width: auto;
+  justify-items: center;
+}
+.secprofile button{
+  width: 400px;
+  border: none;
+  border-radius: 30px;
+  padding: 10px;
+}
+.editprofile{
+  margin-top: 50px;
+  width: 400px;
+  height: 200px;
+  justify-items: center;
+  padding: 10px;
+}
+
+.editprofile input{
+  outline: none;
+  padding: 3px;
+  width:200px;
+  border: none;
+  border-bottom: 2px solid lightskyblue;
+}
+.editprofile button{
+  width: 100px;
+  padding: 7px;
+  color: white;
+  background: lightskyblue;
+  border: none;
+}
+.follow{
+  position: absolute;
+  border-radius: 10%;
+  box-shadow: 30px 30px 30px grey;
+  width: 380px;
+  top: 150px;
+  padding: 10px;
+  justify-items: center;
+  background: white;
+  height: 350px;
+}
+.followers{
+  width: 330px;
+  height: 300px;
+  overflow-x: hidden;
+}
+.cancel{
+  width: 30px;
+  background: transparent;
+  height: 30px;
+  margin-left: 300px;
+  cursor: pointer;
+  font-size: 20px;
+}
+.follow1{
+  display: flex;
+  width: 200px;
+  height: 70px;
+  padding: 10px;
+  gap: 20px;
+  align-items: center;
+}
+.follow1 button{
+  width: 70px;
+  padding: 3px;
+  cursor: pointer;
+  color: white;
+  background: lightskyblue;
+}
+.follow1 img{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+.pfabout{
+  margin-top: 200px;
+}

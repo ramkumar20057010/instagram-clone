@@ -1,0 +1,247 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/data/assets/prof1.jpeg"
+      },
+      "image": "/data/assets/img1.jpeg",
+      "caption": "Beautiful sunset 🌇 #Nature",
+      "likes": 120,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "Wow! Amazing shot! 📸"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Where is this place?"
+        }
+      ],
+      "timestamp": "2025-02-11T14:30:00Z"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "travel_bug",
+        "profile_pic": "/data/assets/prof2.jpeg"
+      },
+      "image": "/data/assets/img2.jpeg",
+      "caption": "Morning coffee with a view ☕️🌲 #Wander #Lake",
+      "likes": 342,
+      "comments": [
+        {
+          "user": "john_doe",
+          "comment": "This looks incredibly peaceful."
+        },
+        {
+          "user": "sara_k",
+          "comment": "Adding this to my bucket list!"
+        }
+      ],
+      "timestamp": "2025-02-12T08:15:00Z"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "foodie_vibes",
+        "profile_pic": "/data/assets/prof3.jpeg"
+      },
+      "image": "/data/assets/img3.jpeg",
+      "caption": "Best homemade pasta night 🍝🇮🇹 #FoodPark  #Cooking",
+      "likes": 89,
+      "comments": [
+        {
+          "user": "travel_bug",
+          "comment": "Drop the recipe ASAP!"
+        }
+      ],
+      "timestamp": "2025-02-12T19:45:00Z"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "pixel_architect",
+        "profile_pic": "/data/assets/prof4.jpeg"
+      },
+      "image": "/data/assets/img4.jpeg",
+      "caption": "Caught this lovable woman in the backyard today 🦅 Custom macro lens setup.",
+      "likes": 512,
+      "comments": [
+        {
+          "user": "alice_wonder",
+          "comment": "The detail on the feathers is insane!"
+        },
+        {
+          "user": "mark_92",
+          "comment": "Incredible focus."
+        }
+      ],
+      "timestamp": "2025-02-13T11:20:00Z"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "city_explorer",
+        "profile_pic": "/data/assets/prof5.jpeg"
+      },
+      "image": "/data/assets/img5.jpeg",
+      "caption": "Neon lights and late-night city walks 🏙️⚡️ #Cyberpunk",
+      "likes": 215,
+      "comments": [
+        {
+          "user": "foodie_vibes",
+          "comment": "Love the vibe of this photo."
+        }
+      ],
+      "timestamp": "2025-02-13T23:10:00Z"
+    }
+  ],
+  "profile": {
+    "id": 107,
+    "username": "osaragi_447",
+    "name": "osaragi",
+    "about": "Lost in the right direction. 🗺️",
+    "profile_pic": "/data/assets/osaragi.jpeg",
+    "newProfile": {
+      "username": "osaragi_447",
+      "name": "osaragi",
+      "about": "Lost in the right direction. 🗺️"
+    }
+  },
+  "stories": [
+    {
+      "id": "1",
+      "user": {
+        "id": 101,
+        "username": "john_doe",
+        "profile_pic": "/data/assets/prof1.jpeg"
+      },
+      "image": "/data/assets/story1.jpeg"
+    },
+    {
+      "id": "2",
+      "user": {
+        "id": 102,
+        "username": "travel_bug",
+        "profile_pic": "/data/assets/prof2.jpeg"
+      },
+      "image": "/data/assets/story2.jpeg"
+    },
+    {
+      "id": "3",
+      "user": {
+        "id": 103,
+        "username": "foodie_vibes",
+        "profile_pic": "/data/assets/prof3.jpeg"
+      },
+      "image": "/data/assets/story3.jpeg"
+    },
+    {
+      "id": "4",
+      "user": {
+        "id": 104,
+        "username": "pixel_architect",
+        "profile_pic": "/data/assets/prof4.jpeg"
+      },
+      "image": "/data/assets/story4.jpeg"
+    },
+    {
+      "id": "5",
+      "user": {
+        "id": 105,
+        "username": "city_explorer",
+        "profile_pic": "/data/assets/prof5.jpeg"
+      },
+      "image": "/data/assets/story5.jpeg"
+    }
+  ],
+  "suggestions": [
+    {
+      "id": "101",
+      "username": "john_doe",
+      "profile_pic": "/data/assets/prof1.jpeg"
+    },
+    {
+      "id": "102",
+      "username": "travel_bug",
+      "profile_pic": "/data/assets/prof2.jpeg"
+    },
+    {
+      "id": "103",
+      "username": "foodie_vibes",
+      "profile_pic": "/data/assets/prof3.jpeg"
+    },
+    {
+      "id": "104",
+      "username": "pixel_architect",
+      "profile_pic": "/data/assets/prof4.jpeg"
+    },
+    {
+      "id": "105",
+      "username": "city_explorer",
+      "profile_pic": "/data/assets/prof5.jpeg"
+    }
+  ],
+  "followers": [
+    {
+      "id": "111",
+      "username": "john_doe",
+      "profile_pic": "/data/assets/prof1.jpeg"
+    },
+    {
+      "id": "112",
+      "username": "travel_bug",
+      "profile_pic": "/data/assets/prof2.jpeg"
+    },
+    {
+      "id": "113",
+      "username": "foodie_vibes",
+      "profile_pic": "/data/assets/prof3.jpeg"
+    },
+    {
+      "id": "114",
+      "username": "pixel_architect",
+      "profile_pic": "/data/assets/prof4.jpeg"
+    },
+    {
+      "id": "115",
+      "username": "city_explorer",
+      "profile_pic": "/data/assets/prof5.jpeg"
+    }
+  ],
+  "following": [
+    {
+      "id": "131",
+      "username": "john_doe",
+      "profile_pic": "/data/assets/prof1.jpeg"
+    },
+    {
+      "id": "132",
+      "username": "travel_bug",
+      "profile_pic": "/data/assets/prof2.jpeg"
+    },
+    {
+      "id": "133",
+      "username": "foodie_vibes",
+      "profile_pic": "/data/assets/prof3.jpeg"
+    },
+    {
+      "id": "134",
+      "username": "pixel_architect",
+      "profile_pic": "/data/assets/prof4.jpeg"
+    },
+    {
+      "id": "135",
+      "username": "city_explorer",
+      "profile_pic": "/data/assets/prof5.jpeg"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
